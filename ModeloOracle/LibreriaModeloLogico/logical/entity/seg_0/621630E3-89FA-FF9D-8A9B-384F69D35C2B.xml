@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="621630E3-89FA-FF9D-8A9B-384F69D35C2B" name="TipoPago">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:11:15 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTipoPago" id="17A5EE17-FC36-460C-5BED-8D9433453B67">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:11:21 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C6FE2373-5C31-37D7-9794-BFE0E39160F4">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:11:37 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D1163DC-D23D-05DB-3C62-2BC83571AC09" name="TipoPago PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:11:36 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17A5EE17-FC36-460C-5BED-8D9433453B67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

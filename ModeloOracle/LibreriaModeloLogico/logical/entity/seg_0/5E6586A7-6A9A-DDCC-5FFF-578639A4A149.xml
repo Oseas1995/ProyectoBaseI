@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E6586A7-6A9A-DDCC-5FFF-578639A4A149" name="Empleado">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:12:42 UTC</createdTime>
+<generatorID>B2EE0E5E-7A00-6548-16C0-1713ADE4574A</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEmpleado" id="31FCF9AE-0966-95E6-56E4-64606551ECF2">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:12:42 UTC</createdTime>
+<generatorID>A824A73B-EDD3-1879-A0B1-6FF1BE60C803</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Persona idPersona" id="2738C325-6D97-317B-0E23-5DD354384D3A">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:08 UTC</createdTime>
+<generatorID>7B2723E9-9243-B577-000A-243BA4FEB28B</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>E12B4A51-D55E-F7F2-419C-58386AD60A99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaIngreso" id="ADFE6CB1-3283-E318-D00B-0A869C75C706">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>2FE79272-27A3-A4D2-3921-6CD39A2F4ACF</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

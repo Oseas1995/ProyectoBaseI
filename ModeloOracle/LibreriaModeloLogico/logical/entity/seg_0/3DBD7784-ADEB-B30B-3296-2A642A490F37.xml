@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DBD7784-ADEB-B30B-3296-2A642A490F37" name="Mora">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:15:44 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMora" id="5D09DA17-B226-1CE8-672F-1C8F85B4999B">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:15:49 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MontoMora" id="23E3506A-273D-2753-2051-F7040DCFBF27">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:15:59 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="BF02909F-973E-2EF9-3490-07B47DC5A9B2">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:16:13 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pago idPago" id="F9133282-1AB9-3536-5968-32D0F911F43B">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:17:31 UTC</createdTime>
+<generatorID>43D8CFD7-266F-DC5B-3D47-98FB53173D5F</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>98D53676-52C6-0EE0-BD61-F37220877409</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

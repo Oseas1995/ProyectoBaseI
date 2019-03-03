@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cliente Persona FK" directorySegmentName="seg_0" id="DD4B258C-DD5A-92B5-5BB1-A6F545C36C5B">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:12:58 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>50370B24-7C58-A5ED-E3DE-939A7C806EBB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6093863D-1AB3-29EA-8D52-2E102F1285D7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D663DBE8-F96B-FB9C-F14B-A3A4456A78BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

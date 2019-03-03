@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8485FCB9-727B-E2EC-AC7B-853C8B42FE3A" name="SucursalEmpleado">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>39A5B195-D005-C3C5-3A66-5B09ADD0B381</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSucursalEmpleado" id="C0E42A70-B0F9-64AF-F59F-D26CDBBE10B0">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>1AB198D5-1983-4343-A91E-9F230A8A2829</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaInicio" id="792A7FD1-B5F3-BD7E-3474-541E4D036769">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>78FF4E13-AE0C-71E0-D20C-31850C6C6A21</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaFin" id="083320E2-45CF-CEF3-0C59-5FD0E8266804">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>D19E8E4A-BE80-A176-9947-C38A24489C17</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_idSucursal" id="E7ECEB5B-2B90-1778-00DC-AFC9EBE1DB75">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>7AEE605E-7F0F-4998-1011-B26B2AFDD6AC</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6AE404E-8AE7-85F1-B047-2725A80AABA6" referredColumn="7ADE0700-C2BF-762B-ABDC-C13094DEDFA0"/>
+</associations>
+</Column>
+<Column name="Empleado_Empleado_ID" id="EF1BD388-8F9D-E434-CAC5-1F15820960CE">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="784C41CE-1BBA-8EA4-2658-0BF1930FC2C6" referredColumn="D512FB26-8BDA-965C-2346-883EAC8538E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F622159-7163-AF8E-0543-154F6C018C15" name="SucursalEmpleado_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>7A2FBEB7-E820-7653-AF5C-8684213394DD</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E42A70-B0F9-64AF-F59F-D26CDBBE10B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22189A8D-B301-D080-5CBB-1C3D0A23D4AF" name="SucursalEmpleado_Empleado_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>BE8CE016-E23C-718C-F3AC-0C695582B699</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF1BD388-8F9D-E434-CAC5-1F15820960CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92EFC0B8-34FE-4FBC-B756-0A87A92883E6" name="SucursalEmpleado_Sucursal_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<generatorID>488AAA24-CF48-9687-4700-18CE3894188D</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7ECEB5B-2B90-1778-00DC-AFC9EBE1DB75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

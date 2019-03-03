@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF9215FC-656A-4A4E-387F-F9B28F13804D" containerWithKeyObject="8582FDD6-A5F9-49CE-F437-DE9AF988D076" localFKIndex="623C02FE-D284-3BC7-D7B7-F47541436D5D" name="Libro_Idioma_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>7AC13005-040D-B8BC-738A-333680B43438</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<referredTableLongName>Idioma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7965D7EE-BE6A-7A33-5D9A-915263DAD4FC</referredTableID>
+<keyObject>44E0F7AA-77CF-8836-0BC8-6D8E3A884A54</keyObject>
+<referredKeyID>44E0F7AA-77CF-8836-0BC8-6D8E3A884A54</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idIdioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

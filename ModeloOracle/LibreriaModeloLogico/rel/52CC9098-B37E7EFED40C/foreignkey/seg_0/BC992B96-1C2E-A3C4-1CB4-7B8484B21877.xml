@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC992B96-1C2E-A3C4-1CB4-7B8484B21877" containerWithKeyObject="ED999531-0B66-A0E6-4245-BC756476CD78" localFKIndex="7D396722-4BB2-56B7-CFA3-3879E02A5FFC" name="DetalleFactura_Libro_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>C6204E71-8809-D266-399E-B795D78A51C1</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<referredTableLongName>Libro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8582FDD6-A5F9-49CE-F437-DE9AF988D076</referredTableID>
+<keyObject>80CD4324-C1A7-1AF8-533A-82ACEEAF3B1C</keyObject>
+<referredKeyID>80CD4324-C1A7-1AF8-533A-82ACEEAF3B1C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idLibro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

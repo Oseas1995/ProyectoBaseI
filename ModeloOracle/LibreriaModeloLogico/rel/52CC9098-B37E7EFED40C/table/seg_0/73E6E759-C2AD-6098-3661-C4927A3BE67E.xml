@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73E6E759-C2AD-6098-3661-C4927A3BE67E" name="Persona">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>6093863D-1AB3-29EA-8D52-2E102F1285D7</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="8714023B-8E4F-4B07-2A9E-2A69622F060C">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>E12B4A51-D55E-F7F2-419C-58386AD60A99</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnombre" id="3501C0BE-ACDA-9655-091E-94CEDB069E5C">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>4B6665C2-3BF0-0546-BE14-2677E933EF2C</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snombre" id="34730908-1532-81F2-5DDE-BF0F39B969DA">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:52:14 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="papellido" id="FDD41672-8430-7BE7-1B89-B148159808BC">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:52:14 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="AE25254F-05F1-77CA-FE5B-09F1578E4007">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:52:14 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="D0840406-8805-987E-6C35-FE47BE65C632">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:52:14 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FCDD400-0273-545C-CC3A-2A573B73DA32" name="Persona_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>50370B24-7C58-A5ED-E3DE-939A7C806EBB</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8714023B-8E4F-4B07-2A9E-2A69622F060C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

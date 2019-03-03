@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D623F7-B1EA-8311-B28E-0D402139A7B3" name="TipoObtencion">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>C4807770-2ED7-F803-D5B6-A242F42056B0</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoObtencion" id="D91B8DD2-C5A2-1638-9BD1-C310AEB1ACAE">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>E31B8EB1-5815-B49C-A8BC-B7BC5FBB2D65</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CAF9F29D-7743-D213-1CEF-B59A6A99F073">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>6B1240E8-AD51-0B17-6BD4-B55EDB05B54C</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F1E7C65-39D1-E412-675C-DEB00248614F" name="TipoObtencion_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>AD705A0C-A31D-2A49-0F50-0710BDA79708</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91B8DD2-C5A2-1638-9BD1-C310AEB1ACAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8582FDD6-A5F9-49CE-F437-DE9AF988D076" name="Libro">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>61E988A4-6DFF-8001-0B6D-52166737BE59</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLibro" id="410E3211-A6E5-66A9-3654-BB634BF02A2A">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>A2C8F1D8-800A-ABAA-D053-786E6E9FFE3D</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7F773879-A716-596F-7997-9EE5ED4579DF">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>4E20DCA0-31FB-C157-BC43-B3BF96DA1109</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anioPublicacion" id="B3D666F5-0A7D-2B82-F839-7E06F8F6A6F0">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>857E5822-3370-63A2-FA7C-9F441680AA11</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idioma_idIdioma" id="2CE89F4E-7B08-9A50-7901-A6468D569C63">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>17FB8240-A3EB-CFE1-D328-B9AE6ACB96FB</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF9215FC-656A-4A4E-387F-F9B28F13804D" referredColumn="47E76444-9E23-6332-36B6-9B1C7084D3E6"/>
+</associations>
+</Column>
+<Column name="Categoria_Categoria_ID" id="B43C4798-8C1D-0FF8-7C18-1F77226DD46C">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2681FFEC-B631-00E4-9384-B9F4B0CA36AA" referredColumn="0E624FEE-D472-1C88-29D7-809296782C8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80CD4324-C1A7-1AF8-533A-82ACEEAF3B1C" name="Libro_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>D284F9F8-CCA4-0140-FC98-6C560B8473DF</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410E3211-A6E5-66A9-3654-BB634BF02A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="623C02FE-D284-3BC7-D7B7-F47541436D5D" name="Libro_Idioma_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>7AC13005-040D-B8BC-738A-333680B43438</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CE89F4E-7B08-9A50-7901-A6468D569C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E16DCED8-3FA7-F99B-4D50-3AACC60902BD" name="Libro_Categoria_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>932FC77E-93E5-F51C-0CAB-56CFF2DE03E6</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B43C4798-8C1D-0FF8-7C18-1F77226DD46C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

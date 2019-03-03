@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pasillo Bodega FK" directorySegmentName="seg_0" id="D6BF8BCA-15FF-C79D-67C0-1E301084864D">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 04:27:05 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70905645-E434-D48E-AD88-48496159E8FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95D6D4AE-5CEC-8218-C8A5-54C7D95F12C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

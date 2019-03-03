@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2BC5E39-14DD-74EA-7E25-C86F1A4B8722" name="Cliente">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:09:45 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCliente" id="F99EBF86-4A16-CA0C-0200-D5EE0ACF1E0A">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:11:37 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_idPersona" id="36FFC29D-D700-FCD0-FDC0-1B4718978E5D">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<generatorID>54EA9089-D9A7-E809-8E86-BD7C042DA64C</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CD312CD-A513-5513-725D-F93754F731A8" referredColumn="8714023B-8E4F-4B07-2A9E-2A69622F060C"/>
+</associations>
+</Column>
+<Column name="FechaIngreso" id="36223351-3183-10C9-692F-2D212BF7BA83">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:34:30 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB650216-C61C-DF41-2A08-6DECC8FB1B70" name="Cliente_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:11:37 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99EBF86-4A16-CA0C-0200-D5EE0ACF1E0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAA5DC8D-1E5C-D4AA-7515-2DE14F68A37E" name="Cliente__IDX">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DD4B258C-DD5A-92B5-5BB1-A6F545C36C5B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="36FFC29D-D700-FCD0-FDC0-1B4718978E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F15CF91-3D18-0C7B-4235-F731A4E9EAB2" name="Cliente_Persona_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<generatorID>DD4B258C-DD5A-92B5-5BB1-A6F545C36C5B</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FFC29D-D700-FCD0-FDC0-1B4718978E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

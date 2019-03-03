@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B210ECA3-BCDC-8F3A-7B3C-5AE9AEC3B678" name="Telefono">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>62C30C5E-7A32-C82C-144C-060D545E52DE</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTelefono" id="D33C9D49-1624-B94A-B65F-221C52EC331D">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>6B9990FB-DD14-CE8C-D691-5BCF03CCE876</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="D449E458-CDD1-6568-C528-78882FA31EC1">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>F83A5243-4D08-39BC-C9CD-1F1E21652142</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_idPersona" id="D55C4D28-FBEE-917C-0562-C4CF13BC0BEB">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>EE513D84-64F3-3B28-FD67-686A0189B155</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="161B1E4B-6DAC-D494-16BF-B455D29046A8" referredColumn="8714023B-8E4F-4B07-2A9E-2A69622F060C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEF4E96F-6B3B-0C4F-2F54-B993ABAD75A4" name="Telefono_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>1CD754F4-2146-A248-B274-E714461F7E30</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33C9D49-1624-B94A-B65F-221C52EC331D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE0EA10C-92B4-966E-7137-2CDE2F66DB9A" name="Telefono_Persona_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:46:39 UTC</createdTime>
+<generatorID>0388239C-6AC8-31C6-1263-64FC1E92E7E8</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D55C4D28-FBEE-917C-0562-C4CF13BC0BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

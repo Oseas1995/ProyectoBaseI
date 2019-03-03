@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2D01956-3DA2-42BD-1CD1-A42FD6F5429B" containerWithKeyObject="1D237867-07D3-1316-2C26-02B73932694E" localFKIndex="62788CA1-943D-139B-9F0D-0750CFCA28CC" name="Generos/Libros_Genero_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>F2FED6E8-D61E-CB9B-81F7-20DCC6DDCCF5</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<referredTableLongName>Genero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD2CD422-FF64-07D3-084A-B2C355742497</referredTableID>
+<keyObject>703D7556-735C-03ED-B626-57451E167ADF</keyObject>
+<referredKeyID>703D7556-735C-03ED-B626-57451E167ADF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idGenero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

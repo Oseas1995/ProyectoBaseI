@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AD49D07-F281-DBCD-C7A4-EB1829AFC5F7" containerWithKeyObject="F888CBF1-4A63-6569-F0CE-3977FACD3F03" localFKIndex="F3DD1A3A-7942-8EF1-386F-5E7177CD69A3" name="Libros/Editoriales_Editorial_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>3646BF1A-670B-4121-036A-5FE8A2FA76CA</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<referredTableLongName>Editorial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>795CB3B6-24AA-5E0C-7506-EB4C9A821CEA</referredTableID>
+<keyObject>5AAE15B9-9D60-00A7-5590-ADE475C75329</keyObject>
+<referredKeyID>5AAE15B9-9D60-00A7-5590-ADE475C75329</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEditorial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

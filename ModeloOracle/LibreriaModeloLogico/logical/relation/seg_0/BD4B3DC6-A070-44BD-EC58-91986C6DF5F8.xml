@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Libros/Editoriales Libro FK" directorySegmentName="seg_0" id="BD4B3DC6-A070-44BD-EC58-91986C6DF5F8">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 03:05:14 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>D284F9F8-CCA4-0140-FC98-6C560B8473DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61E988A4-6DFF-8001-0B6D-52166737BE59</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8549FD87-E15D-4F7C-4CAD-96B1C344318F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D733DFF-E5E3-FE8B-A242-4AC6D53E378C" name="Proveedor/ProductosVarios">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>F85B5C25-E669-A8C7-864B-70E3F2DE0396</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProveedor/ProductosVarios" id="B8D74A93-76DF-47AD-558F-77E35E162AE7">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>89400F9C-8767-B5B9-0044-5A91801CCA83</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="D6DFCEA1-A71B-9406-AB96-F1F6AA80FAC7">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>CC647C0B-A7AF-0F66-25FD-5266E7E3C9FB</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_idProveedor" id="A42080E6-F88A-87D5-9D5A-EB18F163AED4">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>257E665D-DE8B-60CB-B4CE-E9844E7D4A04</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BC857C3-6547-804F-E396-B20D7F079C9D" referredColumn="2ADCCF66-27DC-2D5C-1CFE-66459272CECC"/>
+</associations>
+</Column>
+<Column name="ProductosVarios_idProductosVarios" id="8571E9A0-6046-5594-516A-02651CC3B180">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>45D4EB88-6B47-1D5A-CA39-72517001FEFE</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7D7D4C-C2BF-E634-5EDE-6812FE86D218" referredColumn="DB0CAA2B-CB13-04E7-11D4-AD2DE882886F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F8A8C38-2433-6F6A-F839-701109F9D7E8" name="Proveedor/ProductosVarios_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>B801F32F-7022-9644-A3E5-211D4F4D4D10</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D74A93-76DF-47AD-558F-77E35E162AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAE45A2D-259C-14FE-06AB-9E5FB0EB26AE" name="Proveedor/ProductosVarios_Proveedor_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>A3D00761-6D99-4FC3-CCC2-45EB5C33E8AC</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A42080E6-F88A-87D5-9D5A-EB18F163AED4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2DC4A9C-CA1E-0B76-04A6-C79DF4092288" name="Proveedor/ProductosVarios_ProductosVarios_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>C9FA8EF0-DB92-0FC3-3C46-ACE88A792952</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8571E9A0-6046-5594-516A-02651CC3B180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

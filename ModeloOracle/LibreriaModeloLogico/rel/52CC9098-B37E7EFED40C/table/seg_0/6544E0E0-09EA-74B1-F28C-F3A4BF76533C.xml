@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" name="Pago">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>D92094F9-3952-CAF6-50CC-56F3AEF49C80</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPago" id="5D6E7D3D-3146-5CDC-35C6-4F561DC4BB08">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>98D53676-52C6-0EE0-BD61-F37220877409</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MontoPagar" id="8BFD78BE-9BB8-C0D3-C2A9-9BC4E2B23D06">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>896CB3C7-17C5-0C42-29B4-26B25929E7AE</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaHora" id="8B36F1E2-EE22-0885-3F07-4DEE427E3A30">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>F3B1007D-F748-9C57-4540-B7D5758A4CF5</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descuento_Descuento_ID" id="2B0877E5-0DCF-C0EF-9F6C-4972487F4CE9">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC35F8E0-77CE-8C99-47B1-F412FD88ACCB" referredColumn="3831567B-301B-D5BA-BB56-011FE3A3084C"/>
+</associations>
+</Column>
+<Column name="Prestamo_Prestamo_ID" id="F5BC1A33-2EC9-05CA-FB89-399F7CCE760E">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26D93E58-AF07-07AD-7DDC-BDF9ED64B9EB" referredColumn="BA269D81-323D-A036-4859-87E169FF0191"/>
+</associations>
+</Column>
+<Column name="TipoPago_idTipoPago" id="1D745EB3-E638-94E7-35C2-51B600448406">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:53:59 UTC</createdTime>
+<generatorID>CD63D8AD-5D27-40EF-9469-7E28EE2FED14</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CA04F86-4390-50C5-1E26-87F6B994B186" referredColumn="AE667D80-0BA2-63FA-E38A-4D01501B0C31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D876AC6F-930F-35C4-1E15-5A0CFC2587D4" name="Pago_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>968F0245-C6AE-6BF6-CB5B-BF012F654EE2</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6E7D3D-3146-5CDC-35C6-4F561DC4BB08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A4FC231-4A40-A1F2-C5C7-EE01A036791F" name="Pago_Descuento_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>3792F3AA-20F3-0859-BF63-B820DBC8BCCF</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B0877E5-0DCF-C0EF-9F6C-4972487F4CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37AB2668-EC88-83C4-3481-335A850E629A" name="Pago_Prestamo_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>05FACA7A-CD1D-F086-9B4F-BD7AA29E9552</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5BC1A33-2EC9-05CA-FB89-399F7CCE760E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D68D4481-738C-F6E2-F77A-3C36838B35C0" name="Pago_TipoPago_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:53:59 UTC</createdTime>
+<generatorID>ADAB37F5-85A4-D473-38CE-B223F05E9569</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D745EB3-E638-94E7-35C2-51B600448406"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5461B7D3-658C-B68C-7365-FFD7DF0040B1" name="Factura">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>947F5337-FDBC-F17D-9189-FCF3EC171101</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFactura" id="D8245AEE-359C-F46E-31DA-AAC604D4F510">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>F3DB3190-C90A-9F9F-9229-79B874BCCED7</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="DC942F10-3344-F1BE-5363-37FF3DB22EC7">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>9061ACD5-6F50-405D-5F51-CCD468863BC0</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="90D39305-7B73-562B-70D0-7FF162EEDFAB">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>8EAEFC5D-3AF1-6799-2590-4A97AAAC3339</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05D4128A-9A41-8E82-2545-597D2043DD2D" referredColumn="F99EBF86-4A16-CA0C-0200-D5EE0ACF1E0A"/>
+</associations>
+</Column>
+<Column name="Pago_idPago" id="71F5DB73-A01F-ADBA-9ADC-98B6539A4968">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>7B73AF18-1AA1-7D51-64E7-CC535B8FF5A1</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21C5E839-B7F7-7B33-B80C-B876B55270C9" referredColumn="5D6E7D3D-3146-5CDC-35C6-4F561DC4BB08"/>
+</associations>
+</Column>
+<Column name="TipoObtencion_idTipoObtencion" id="9B4DE232-439F-566A-53AE-C40E3B898125">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>C577F09E-6B9F-184C-BAC8-42022C500944</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF445FE5-E80F-54BB-D910-C8AA19A44503" referredColumn="D91B8DD2-C5A2-1638-9BD1-C310AEB1ACAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56F8BDC8-D287-184A-63B9-1658424488EF" name="Factura_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>0D9CECD1-CC4A-8072-B5E2-C612269A5884</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8245AEE-359C-F46E-31DA-AAC604D4F510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9E11F3A-991D-2415-FD7B-2A5020B4126A" name="Factura__IDX">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>49157B36-B8F6-B413-1AD0-8CBB4BEB543D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="71F5DB73-A01F-ADBA-9ADC-98B6539A4968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B2F00D3-E271-B7F2-011E-F6A83704AE5D" name="Factura_Cliente_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>79D4E53D-272D-4851-FF69-CCF2F0082D00</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D39305-7B73-562B-70D0-7FF162EEDFAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95DE2895-5A96-7261-0717-86CD6FCB74F1" name="Factura_Pago_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>49157B36-B8F6-B413-1AD0-8CBB4BEB543D</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71F5DB73-A01F-ADBA-9ADC-98B6539A4968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06FD8719-836B-F478-1007-284B5F86690D" name="Factura_TipoObtencion_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>33FC779F-1E46-EAAA-4EF4-BCBEE94D5866</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B4DE232-439F-566A-53AE-C40E3B898125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

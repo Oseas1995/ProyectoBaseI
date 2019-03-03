@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Factura Cliente FK" directorySegmentName="seg_0" id="79D4E53D-272D-4851-FF69-CCF2F0082D00">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:25:29 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>43DD8F9C-B70A-15BE-B70C-EDAEB9E2EA72</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D663DBE8-F96B-FB9C-F14B-A3A4456A78BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>947F5337-FDBC-F17D-9189-FCF3EC171101</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D740166-2FE8-2860-8101-E7BE3773023D" name="Cargo">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>D79CA74F-D601-9734-022E-AF683DA78E8A</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCargo" id="32FB0785-206A-6333-CF1C-1F7BE58E3BE0">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>776ED138-EC32-8F7E-DD66-D00156E34DD5</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C4EA7DD3-93BA-8FDA-CE8A-B9FEF1278944">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>D56C1F96-B78B-CA0A-254F-11121A32C4B8</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01CE50DC-526C-FB62-0C46-0DA131661FA3" name="Cargo PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>49A78A37-767B-48BB-FE13-A8DF44CCC87A</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32FB0785-206A-6333-CF1C-1F7BE58E3BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

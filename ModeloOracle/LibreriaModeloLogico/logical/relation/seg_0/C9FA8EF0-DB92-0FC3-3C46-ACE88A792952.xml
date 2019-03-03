@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Proveedor/ProductosVarios ProductosVarios FK" directorySegmentName="seg_0" id="C9FA8EF0-DB92-0FC3-3C46-ACE88A792952">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 04:14:33 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>F9F9D7CA-0F8A-D90C-0CEC-8519CA2522B4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C873AB9E-DFC2-7493-A68B-5C35E5114590</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F85B5C25-E669-A8C7-864B-70E3F2DE0396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

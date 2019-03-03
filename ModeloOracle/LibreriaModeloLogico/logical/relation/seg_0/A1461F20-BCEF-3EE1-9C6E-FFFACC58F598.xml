@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empleado/Cargo Cargo FK" directorySegmentName="seg_0" id="A1461F20-BCEF-3EE1-9C6E-FFFACC58F598">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:41:42 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>01CE50DC-526C-FB62-0C46-0DA131661FA3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D740166-2FE8-2860-8101-E7BE3773023D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB341E4C-5692-794C-51B6-FDEFC787F920</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pago TipoPago FK" directorySegmentName="seg_0" id="ADAB37F5-85A4-D473-38CE-B223F05E9569">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:53:53 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>1D1163DC-D23D-05DB-3C62-2BC83571AC09</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>621630E3-89FA-FF9D-8A9B-384F69D35C2B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D92094F9-3952-CAF6-50CC-56F3AEF49C80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

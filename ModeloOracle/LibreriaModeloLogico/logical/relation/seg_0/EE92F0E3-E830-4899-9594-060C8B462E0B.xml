@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estante Pasillo FK" directorySegmentName="seg_0" id="EE92F0E3-E830-4899-9594-060C8B462E0B">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 04:27:10 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95D6D4AE-5CEC-8218-C8A5-54C7D95F12C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9B423E2-C7CA-66C5-EA22-4EEC46B12E03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

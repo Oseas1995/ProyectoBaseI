@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B140F79-2ED6-C772-2BF4-9CE80FE83F05" name="Proveedores/Libros">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>26C73330-F815-79EB-ED51-1408D600FBB6</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProveedores/Libros" id="7EDD363B-1459-F0C0-1F6E-C3E7CBBA0D6F">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>EA21F688-1045-E5DF-365E-519969F0582F</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="4AFC3BC9-B911-717C-1BF6-DDB94A6CA0A2">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>5FC5B3B5-F547-AA77-4E9D-EDA12910538F</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_idProveedor" id="5E381B33-CBF7-5553-2A29-680E1B249B22">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>D640CA27-982A-7AA9-31A0-339DC6A1257A</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3390BF3-F381-44DF-F489-9C66BC523606" referredColumn="2ADCCF66-27DC-2D5C-1CFE-66459272CECC"/>
+</associations>
+</Column>
+<Column name="Libro_idLibro" id="CDE9288C-FBF5-F8B7-C5CC-2279DA65D614">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>E2CE3083-F93E-BD98-0099-0624A645D6B0</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="109FD280-BE3E-B0A8-8B49-71114FFB1876" referredColumn="410E3211-A6E5-66A9-3654-BB634BF02A2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC2748BD-F885-445F-0CA5-6F860033C5FD" name="Proveedores/Libros_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>8589ED4D-698E-2D02-DD49-E77C997C501D</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EDD363B-1459-F0C0-1F6E-C3E7CBBA0D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D12F0F1B-08D2-0A70-5183-26BD981C53FF" name="Proveedores/Libros_Proveedor_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>9B8FDF14-FF21-CDD3-CDF9-DFE1A8B4A455</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E381B33-CBF7-5553-2A29-680E1B249B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="101B6D58-4D63-34F6-1942-BF87EEC5ADC9" name="Proveedores/Libros_Libro_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>14A85393-6F36-B57C-5667-9DF557AD239E</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE9288C-FBF5-F8B7-C5CC-2279DA65D614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

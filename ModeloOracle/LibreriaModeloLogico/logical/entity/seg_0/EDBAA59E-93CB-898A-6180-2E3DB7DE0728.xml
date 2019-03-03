@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDBAA59E-93CB-898A-6180-2E3DB7DE0728" name="Sucursal">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>3A6953BD-7F40-F419-D962-82BC07A2034B</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSucursal" id="04035F0B-DA26-1D2A-C7BE-AB653756944C">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>7ADE0700-C2BF-762B-ABDC-C13094DEDFA0</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D758322A-FD68-8BBB-8F54-73822A7546ED">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>4C410B9A-F141-E5BB-2B1F-EF7070B181A3</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="21E6903E-96D7-914D-B34C-0EB17583FAD1">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>FDA954D8-C443-FF9E-6FBE-88DB110DBE15</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="F7729860-A547-1849-BFCF-5C8C5554B5E2">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>58F8AD70-2A2E-6415-BA24-D746DA0D18E8</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Libreria idLibreria" id="6DEC7C3C-6806-D64D-D295-66BE953F067E">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:46:42 UTC</createdTime>
+<generatorID>B828CF0C-A351-A72E-87A1-0695BD8D4599</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>D22B2895-8790-FBDD-A01E-D3CC1817A353</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37448FD1-BDD0-BE3E-D00B-9D331B6388C1" name="Sucursal PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:39:08 UTC</createdTime>
+<generatorID>6FB7CF04-3353-2DA5-E84B-F4978BE388E9</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04035F0B-DA26-1D2A-C7BE-AB653756944C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

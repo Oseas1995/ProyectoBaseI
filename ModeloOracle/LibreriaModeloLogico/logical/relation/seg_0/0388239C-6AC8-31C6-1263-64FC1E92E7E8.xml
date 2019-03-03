@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Telefono Persona FK" directorySegmentName="seg_0" id="0388239C-6AC8-31C6-1263-64FC1E92E7E8">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-26 23:44:00 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>50370B24-7C58-A5ED-E3DE-939A7C806EBB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6093863D-1AB3-29EA-8D52-2E102F1285D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62C30C5E-7A32-C82C-144C-060D545E52DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

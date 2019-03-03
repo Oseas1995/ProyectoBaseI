@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sucursal Bodega FK" directorySegmentName="seg_0" id="6747403F-640C-19F7-54F7-97B7A5088BB3">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 04:28:44 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70905645-E434-D48E-AD88-48496159E8FD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EDBAA59E-93CB-898A-6180-2E3DB7DE0728</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

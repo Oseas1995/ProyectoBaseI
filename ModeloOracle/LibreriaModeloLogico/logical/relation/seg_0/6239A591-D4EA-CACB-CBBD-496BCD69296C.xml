@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JefeInmediato Empleado FK" directorySegmentName="seg_0" id="6239A591-D4EA-CACB-CBBD-496BCD69296C">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:13 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5E6586A7-6A9A-DDCC-5FFF-578639A4A149</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>74B512C9-A528-CD0D-FBC0-1FFDAF30290F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

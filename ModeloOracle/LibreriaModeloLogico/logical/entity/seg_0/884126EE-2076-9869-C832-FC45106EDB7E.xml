@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="884126EE-2076-9869-C832-FC45106EDB7E" name="DetalleFactura">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:26:17 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idDetalleFactura" id="01BB22C1-DF15-217C-7CD4-4BBBE1AE90F3">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:26:26 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Factura idFactura" id="DDCFF232-0C1C-D4E4-B224-C43D7FA727A2">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:26:54 UTC</createdTime>
+<generatorID>215618FE-94AA-2CAB-C609-04B3F8DBC22F</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>F3DB3190-C90A-9F9F-9229-79B874BCCED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Libro idLibro" id="2DBF435E-3B23-1409-4A5B-006EA263A049">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:27:31 UTC</createdTime>
+<generatorID>C6204E71-8809-D266-399E-B795D78A51C1</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>A2C8F1D8-800A-ABAA-D053-786E6E9FFE3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="0E326577-80E8-7EAC-DFDD-BB8E8E8D19B8">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:27:39 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71D84BEA-A599-48BB-0DB3-71CA02C63BE3" name="DetalleFactura PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:26:35 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01BB22C1-DF15-217C-7CD4-4BBBE1AE90F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

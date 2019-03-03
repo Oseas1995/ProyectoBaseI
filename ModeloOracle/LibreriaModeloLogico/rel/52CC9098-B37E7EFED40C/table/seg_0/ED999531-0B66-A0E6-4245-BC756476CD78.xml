@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED999531-0B66-A0E6-4245-BC756476CD78" name="DetalleFactura">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>884126EE-2076-9869-C832-FC45106EDB7E</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDetalleFactura" id="B02EBE66-EBC4-B1AF-4946-D3BB6F7C9E94">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>01BB22C1-DF15-217C-7CD4-4BBBE1AE90F3</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Factura_idFactura" id="D91CE3C1-A8A2-0867-2A49-15EF3B95ED9E">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>DDCFF232-0C1C-D4E4-B224-C43D7FA727A2</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A888C66-B522-55E9-E3D8-F5CC78AB206C" referredColumn="D8245AEE-359C-F46E-31DA-AAC604D4F510"/>
+</associations>
+</Column>
+<Column name="Libro_idLibro" id="8F5BD78A-20B2-7993-A886-109F97A33338">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>2DBF435E-3B23-1409-4A5B-006EA263A049</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC992B96-1C2E-A3C4-1CB4-7B8484B21877" referredColumn="410E3211-A6E5-66A9-3654-BB634BF02A2A"/>
+</associations>
+</Column>
+<Column name="Cantidad" id="E5CBBC8A-63AA-1159-746C-0E118746E552">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>0E326577-80E8-7EAC-DFDD-BB8E8E8D19B8</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="734C7930-4B69-ADED-D8F5-C0CBCC979822" name="DetalleFactura_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>71D84BEA-A599-48BB-0DB3-71CA02C63BE3</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B02EBE66-EBC4-B1AF-4946-D3BB6F7C9E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FA243B5-0C04-5D1D-A875-793C9B49F2E6" name="DetalleFactura_Factura_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>215618FE-94AA-2CAB-C609-04B3F8DBC22F</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91CE3C1-A8A2-0867-2A49-15EF3B95ED9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D396722-4BB2-56B7-CFA3-3879E02A5FFC" name="DetalleFactura_Libro_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:46:57 UTC</createdTime>
+<generatorID>C6204E71-8809-D266-399E-B795D78A51C1</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F5BD78A-20B2-7993-A886-109F97A33338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

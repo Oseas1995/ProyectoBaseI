@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="05E35FE9-B50D-F33C-DA9A-E33A16F6BB1B" name="Edicion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1192C74C-1266-B36A-0E90-CFCFB6804063" name="Generos/Libros" seqName="seg_0"/>
+   <object objectType="Entity" objectID="14914107-0B42-B7C1-6375-A36579B7BFBA" name="Cubiculo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1A4790B8-37AB-6E00-CFAE-E766E9DAECEF" name="Editorial" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1D740166-2FE8-2860-8101-E7BE3773023D" name="Cargo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="26C73330-F815-79EB-ED51-1408D600FBB6" name="Proveedores/Libros" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2DF3B31C-3ABF-C1C9-8620-28279173695A" name="TipoProveedor" seqName="seg_0"/>
+   <object objectType="Entity" objectID="39A5B195-D005-C3C5-3A66-5B09ADD0B381" name="SucursalEmpleado" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3DBD7784-ADEB-B30B-3296-2A642A490F37" name="Mora" seqName="seg_0"/>
+   <object objectType="Entity" objectID="49D87776-B0DE-F90C-EC0C-C1DAEB1EC0EC" name="Autores/Libros" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5E6586A7-6A9A-DDCC-5FFF-578639A4A149" name="Empleado" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6093863D-1AB3-29EA-8D52-2E102F1285D7" name="Persona" seqName="seg_0"/>
+   <object objectType="Entity" objectID="618DF2FA-4C1D-4A27-CA6D-764C4AE9818A" name="Idioma" seqName="seg_0"/>
+   <object objectType="Entity" objectID="61E988A4-6DFF-8001-0B6D-52166737BE59" name="Libro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="621630E3-89FA-FF9D-8A9B-384F69D35C2B" name="TipoPago" seqName="seg_0"/>
+   <object objectType="Entity" objectID="62C30C5E-7A32-C82C-144C-060D545E52DE" name="Telefono" seqName="seg_0"/>
+   <object objectType="Entity" objectID="689778AF-8188-D807-54D9-1BAA26C627A9" name="Autor" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6E6E5140-2AA4-E71B-9216-C383FB04B4C3" name="Prestamo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="70905645-E434-D48E-AD88-48496159E8FD" name="Bodega" seqName="seg_0"/>
+   <object objectType="Entity" objectID="71B55547-4AFB-5E99-4443-8858D65525CC" name="Descuento" seqName="seg_0"/>
+   <object objectType="Entity" objectID="74B512C9-A528-CD0D-FBC0-1FFDAF30290F" name="JefeInmediato" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7B1A7750-0653-097C-3439-D0BC1A99B2F3" name="Genero" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8549FD87-E15D-4F7C-4CAD-96B1C344318F" name="Libros/Editoriales" seqName="seg_0"/>
+   <object objectType="Entity" objectID="884126EE-2076-9869-C832-FC45106EDB7E" name="DetalleFactura" seqName="seg_0"/>
+   <object objectType="Entity" objectID="947F5337-FDBC-F17D-9189-FCF3EC171101" name="Factura" seqName="seg_0"/>
+   <object objectType="Entity" objectID="95D6D4AE-5CEC-8218-C8A5-54C7D95F12C5" name="Pasillo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B9B423E2-C7CA-66C5-EA22-4EEC46B12E03" name="Estante" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C4807770-2ED7-F803-D5B6-A242F42056B0" name="TipoObtencion" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C59B68DF-CE6B-ACDB-CBDB-4C267D3DD806" name="Proveedor" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C873AB9E-DFC2-7493-A68B-5C35E5114590" name="ProductosVarios" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D330238F-7610-3E79-4DB6-D2AE827C3FC4" name="Libreria" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D663DBE8-F96B-FB9C-F14B-A3A4456A78BF" name="Cliente" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D92094F9-3952-CAF6-50CC-56F3AEF49C80" name="Pago" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DB341E4C-5692-794C-51B6-FDEFC787F920" name="Empleado/Cargo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EDBAA59E-93CB-898A-6180-2E3DB7DE0728" name="Sucursal" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F85B5C25-E669-A8C7-864B-70E3F2DE0396" name="Proveedor/ProductosVarios" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FE6D9D1D-0065-2172-8CBC-DC3356201E2F" name="Categoria" seqName="seg_0"/>
+   <object objectType="Relation" objectID="0388239C-6AC8-31C6-1263-64FC1E92E7E8" name="Telefono Persona FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="042FD76F-51E0-3513-61ED-52F80CC0B4E0" name="Cubiculo Estante FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="05FACA7A-CD1D-F086-9B4F-BD7AA29E9552" name="Pago Prestamo FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="14A85393-6F36-B57C-5667-9DF557AD239E" name="Proveedores/Libros Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="215618FE-94AA-2CAB-C609-04B3F8DBC22F" name="DetalleFactura Factura FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="33FC779F-1E46-EAAA-4EF4-BCBEE94D5866" name="Factura TipoObtencion FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3646BF1A-670B-4121-036A-5FE8A2FA76CA" name="Libros/Editoriales Editorial FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3792F3AA-20F3-0859-BF63-B820DBC8BCCF" name="Pago Descuento FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="43D8CFD7-266F-DC5B-3D47-98FB53173D5F" name="Mora Pago FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="488AAA24-CF48-9687-4700-18CE3894188D" name="SucursalEmpleado Sucursal FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="49157B36-B8F6-B413-1AD0-8CBB4BEB543D" name="Factura Pago FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="4DE574AE-9F0F-5D3F-0252-52F71F8D59E0" name="Autores/Libros Autor FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6239A591-D4EA-CACB-CBBD-496BCD69296C" name="JefeInmediato Empleado FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6747403F-640C-19F7-54F7-97B7A5088BB3" name="Sucursal Bodega FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6DA40A0A-C2E4-41E4-0031-0CCB36081424" name="Empleado/Cargo Empleado FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="79D4E53D-272D-4851-FF69-CCF2F0082D00" name="Factura Cliente FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7AC13005-040D-B8BC-738A-333680B43438" name="Libro Idioma FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7B2723E9-9243-B577-000A-243BA4FEB28B" name="Empleado Persona FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="932FC77E-93E5-F51C-0CAB-56CFF2DE03E6" name="Libro Categoria FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9B8FDF14-FF21-CDD3-CDF9-DFE1A8B4A455" name="Proveedores/Libros Proveedor FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A1461F20-BCEF-3EE1-9C6E-FFFACC58F598" name="Empleado/Cargo Cargo FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A3D00761-6D99-4FC3-CCC2-45EB5C33E8AC" name="Proveedor/ProductosVarios Proveedor FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ADAB37F5-85A4-D473-38CE-B223F05E9569" name="Pago TipoPago FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ADEEC2A6-A76F-D230-BD28-20D8FCCC036A" name="Empleado JefeInmediato FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B828CF0C-A351-A72E-87A1-0695BD8D4599" name="Sucursal Libreria FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BD4B3DC6-A070-44BD-EC58-91986C6DF5F8" name="Libros/Editoriales Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BE8CE016-E23C-718C-F3AC-0C695582B699" name="SucursalEmpleado Empleado FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C6204E71-8809-D266-399E-B795D78A51C1" name="DetalleFactura Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C9FA8EF0-DB92-0FC3-3C46-ACE88A792952" name="Proveedor/ProductosVarios ProductosVarios FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D48F4F39-77D3-4E86-3546-DA3C69D0FDFE" name="Edicion Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D6BF8BCA-15FF-C79D-67C0-1E301084864D" name="Pasillo Bodega FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D839177B-8BCF-71C6-F557-696AC8216A75" name="Generos/Libros Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DD4B258C-DD5A-92B5-5BB1-A6F545C36C5B" name="Cliente Persona FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E5133950-CAAA-1EBC-D7AF-11FCD9AECC70" name="Autores/Libros Libro FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EE92F0E3-E830-4899-9594-060C8B462E0B" name="Estante Pasillo FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F2FED6E8-D61E-CB9B-81F7-20DCC6DDCCF5" name="Generos/Libros Genero FK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F6C5A90B-1B1D-8F88-CF41-5EB874BBB005" name="Proveedor TipoProveedor FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

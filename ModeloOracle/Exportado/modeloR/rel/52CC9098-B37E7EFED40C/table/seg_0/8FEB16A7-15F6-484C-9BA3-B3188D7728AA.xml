@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FEB16A7-15F6-484C-9BA3-B3188D7728AA" name="Autores/Libros">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>49D87776-B0DE-F90C-EC0C-C1DAEB1EC0EC</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAutoresLibros" id="D5B02FF5-7C28-777A-7A83-AF18C2A9ED75">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>D757AEAD-69FC-9034-8050-CDEE9EB52525</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libro_idLibro" id="808A2D5B-0FC0-164A-E1B2-908642D46518">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>6E9EB78C-7C8E-B11D-4B82-9E46978D410C</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD51C0DA-4275-3DED-994C-D67A58CBFB36" referredColumn="410E3211-A6E5-66A9-3654-BB634BF02A2A"/>
+</associations>
+</Column>
+<Column name="Autor_idAutor" id="8E6E658D-D306-84C7-070D-3B5EC77CFDA0">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>BB5194A0-3980-B20E-E239-1DCCEB058B53</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B2BF42B-B9D0-640B-77D9-46B3BB3A32EF" referredColumn="E527809C-684E-AC82-1E5E-846BA1778CC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="983DDE5A-D8F0-7AAE-BB21-342745393B8C" name="Autores/Libros_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>61CD05D2-40D7-4A44-660E-3FBBE1EEA6D2</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5B02FF5-7C28-777A-7A83-AF18C2A9ED75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25ADB154-E82E-F6F6-2D0A-62E101DD8041" name="Autores/Libros_Libro_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>E5133950-CAAA-1EBC-D7AF-11FCD9AECC70</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808A2D5B-0FC0-164A-E1B2-908642D46518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FA77132-24BB-EECD-067B-3C31A8AD4DA9" name="Autores/Libros_Autor_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>4DE574AE-9F0F-5D3F-0252-52F71F8D59E0</generatorID>
+<ownerDesignName>modeloR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E6E658D-D306-84C7-070D-3B5EC77CFDA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

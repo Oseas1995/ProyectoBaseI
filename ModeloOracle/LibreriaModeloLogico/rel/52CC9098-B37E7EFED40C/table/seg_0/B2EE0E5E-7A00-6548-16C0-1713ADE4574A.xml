@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" name="Empleado">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:11:38 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_ID" id="D512FB26-8BDA-965C-2346-883EAC8538E6">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="idEmpleado" id="A824A73B-EDD3-1879-A0B1-6FF1BE60C803">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:12:05 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Persona_idPersona" id="9086BF3E-21D5-C8A8-C889-7C8D505F748E">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<generatorID>2738C325-6D97-317B-0E23-5DD354384D3A</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="367D076E-2788-60A9-3AFD-50239E185510" referredColumn="8714023B-8E4F-4B07-2A9E-2A69622F060C"/>
+</associations>
+</Column>
+<Column name="FechaIngreso" id="2FE79272-27A3-A4D2-3921-6CD39A2F4ACF">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:34:46 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JefeInmediato_JefeInmediato_ID" id="F055519D-5774-7825-5D6D-393F09ECE9D6">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB4B6BD6-B5DE-796B-E973-43203F471C71" referredColumn="8F9A0D11-148B-37ED-582F-7A96231BF712"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F3435C-52F7-F306-F509-7A782AC26D09" name="Empleado_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:49:08 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D512FB26-8BDA-965C-2346-883EAC8538E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="559B033B-DC40-99EA-9DFC-D57D07D4A8FC" name="Empleado__IDX">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B2723E9-9243-B577-000A-243BA4FEB28B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9086BF3E-21D5-C8A8-C889-7C8D505F748E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C177E0A9-64D8-43F6-6F92-C9B6E4289F82" name="Empleado_Persona_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-27 00:13:41 UTC</createdTime>
+<generatorID>7B2723E9-9243-B577-000A-243BA4FEB28B</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9086BF3E-21D5-C8A8-C889-7C8D505F748E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C10962BC-4E8E-FAA5-E7F4-326FDF2F8FB7" name="Empleado_JefeInmediato_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<generatorID>ADEEC2A6-A76F-D230-BD28-20D8FCCC036A</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F055519D-5774-7825-5D6D-393F09ECE9D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

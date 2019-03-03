@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Factura TipoObtencion FK" directorySegmentName="seg_0" id="33FC779F-1E46-EAAA-4EF4-BCBEE94D5866">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:42:20 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<sourcePk>AD705A0C-A31D-2A49-0F50-0710BDA79708</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4807770-2ED7-F803-D5B6-A242F42056B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>947F5337-FDBC-F17D-9189-FCF3EC171101</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

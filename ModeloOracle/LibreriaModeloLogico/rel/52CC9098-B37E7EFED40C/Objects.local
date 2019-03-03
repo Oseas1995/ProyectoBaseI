@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0D733DFF-E5E3-FE8B-A242-4AC6D53E378C" name="Proveedor/ProductosVarios" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D237867-07D3-1316-2C26-02B73932694E" name="Generos/Libros" seqName="seg_0"/>
+   <object objectType="Table" objectID="35C61BDB-7823-5F49-6338-3BF5E22A476D" name="Categoria" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A6953BD-7F40-F419-D962-82BC07A2034B" name="Sucursal" seqName="seg_0"/>
+   <object objectType="Table" objectID="3BC3C430-6F50-8AE3-BA98-05F663115FE2" name="TipoProveedor" seqName="seg_0"/>
+   <object objectType="Table" objectID="3E1E3133-DF0D-ACC6-9FB5-F164AC87869B" name="Pasillo" seqName="seg_0"/>
+   <object objectType="Table" objectID="40D623F7-B1EA-8311-B28E-0D402139A7B3" name="TipoObtencion" seqName="seg_0"/>
+   <object objectType="Table" objectID="4F36D3A3-7A4C-8A43-CC3A-104DDBE28692" name="Descuento" seqName="seg_0"/>
+   <object objectType="Table" objectID="51F7539C-0797-19A7-EA14-3D71B293CF87" name="Mora" seqName="seg_0"/>
+   <object objectType="Table" objectID="5461B7D3-658C-B68C-7365-FFD7DF0040B1" name="Factura" seqName="seg_0"/>
+   <object objectType="Table" objectID="5465A1EC-B4C8-71CB-FA49-F7EB91221637" name="Bodega" seqName="seg_0"/>
+   <object objectType="Table" objectID="597A15EB-DA19-B5A1-D6A4-28CB4B93D769" name="Prestamo" seqName="seg_0"/>
+   <object objectType="Table" objectID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" name="Pago" seqName="seg_0"/>
+   <object objectType="Table" objectID="73E6E759-C2AD-6098-3661-C4927A3BE67E" name="Persona" seqName="seg_0"/>
+   <object objectType="Table" objectID="795CB3B6-24AA-5E0C-7506-EB4C9A821CEA" name="Editorial" seqName="seg_0"/>
+   <object objectType="Table" objectID="7965D7EE-BE6A-7A33-5D9A-915263DAD4FC" name="Idioma" seqName="seg_0"/>
+   <object objectType="Table" objectID="810D0479-03ED-9289-E81B-C0C8A8456F21" name="ProductosVarios" seqName="seg_0"/>
+   <object objectType="Table" objectID="8485FCB9-727B-E2EC-AC7B-853C8B42FE3A" name="SucursalEmpleado" seqName="seg_0"/>
+   <object objectType="Table" objectID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" name="Libro" seqName="seg_0"/>
+   <object objectType="Table" objectID="867203C0-3868-2995-DFC3-9A32A8BE6B74" name="TipoPago" seqName="seg_0"/>
+   <object objectType="Table" objectID="8FEB16A7-15F6-484C-9BA3-B3188D7728AA" name="Autores/Libros" seqName="seg_0"/>
+   <object objectType="Table" objectID="9B140F79-2ED6-C772-2BF4-9CE80FE83F05" name="Proveedores/Libros" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4057BB2-D760-538F-3003-1D938B706B25" name="Libreria" seqName="seg_0"/>
+   <object objectType="Table" objectID="A7824F73-C489-8751-6131-1EE27D027F72" name="JefeInmediato" seqName="seg_0"/>
+   <object objectType="Table" objectID="B210ECA3-BCDC-8F3A-7B3C-5AE9AEC3B678" name="Telefono" seqName="seg_0"/>
+   <object objectType="Table" objectID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" name="Empleado" seqName="seg_0"/>
+   <object objectType="Table" objectID="BD2CD422-FF64-07D3-084A-B2C355742497" name="Genero" seqName="seg_0"/>
+   <object objectType="Table" objectID="C8A0BB67-BEC7-4CE6-5F7A-2042D688F236" name="Estante" seqName="seg_0"/>
+   <object objectType="Table" objectID="CBFB9C13-5843-F6D3-8B56-7DF0EB29DA43" name="Edicion" seqName="seg_0"/>
+   <object objectType="Table" objectID="D79CA74F-D601-9734-022E-AF683DA78E8A" name="Cargo" seqName="seg_0"/>
+   <object objectType="Table" objectID="DD04E3DE-0564-1A70-C241-CF16A76B62CB" name="Cubiculo" seqName="seg_0"/>
+   <object objectType="Table" objectID="E15EB823-D80A-3431-3E36-150A56143B54" name="Proveedor" seqName="seg_0"/>
+   <object objectType="Table" objectID="E84BDDA5-E054-1269-4443-F664FEF6290F" name="Empleado/Cargo" seqName="seg_0"/>
+   <object objectType="Table" objectID="ED999531-0B66-A0E6-4245-BC756476CD78" name="DetalleFactura" seqName="seg_0"/>
+   <object objectType="Table" objectID="F2BC5E39-14DD-74EA-7E25-C86F1A4B8722" name="Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="F888CBF1-4A63-6569-F0CE-3977FACD3F03" name="Libros/Editoriales" seqName="seg_0"/>
+   <object objectType="Table" objectID="FC07DC1A-CCBA-0E5C-D7D5-AB3C37848669" name="Autor" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="05D4128A-9A41-8E82-2545-597D2043DD2D" name="Factura_Cliente_FK" containerID="5461B7D3-658C-B68C-7365-FFD7DF0040B1" refContainerID="F2BC5E39-14DD-74EA-7E25-C86F1A4B8722" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="109FD280-BE3E-B0A8-8B49-71114FFB1876" name="Proveedores/Libros_Libro_FK" containerID="9B140F79-2ED6-C772-2BF4-9CE80FE83F05" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="161B1E4B-6DAC-D494-16BF-B455D29046A8" name="Telefono_Persona_FK" containerID="B210ECA3-BCDC-8F3A-7B3C-5AE9AEC3B678" refContainerID="73E6E759-C2AD-6098-3661-C4927A3BE67E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="18CE263D-2F4D-5CF4-DC04-664754A80FF2" name="Cubiculo_Estante_FK" containerID="DD04E3DE-0564-1A70-C241-CF16A76B62CB" refContainerID="C8A0BB67-BEC7-4CE6-5F7A-2042D688F236" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="21C5E839-B7F7-7B33-B80C-B876B55270C9" name="Factura_Pago_FK" containerID="5461B7D3-658C-B68C-7365-FFD7DF0040B1" refContainerID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2681FFEC-B631-00E4-9384-B9F4B0CA36AA" name="Libro_Categoria_FK" containerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" refContainerID="35C61BDB-7823-5F49-6338-3BF5E22A476D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="26D93E58-AF07-07AD-7DDC-BDF9ED64B9EB" name="Pago_Prestamo_FK" containerID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" refContainerID="597A15EB-DA19-B5A1-D6A4-28CB4B93D769" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2BC857C3-6547-804F-E396-B20D7F079C9D" name="Proveedor/ProductosVarios_Proveedor_FK" containerID="0D733DFF-E5E3-FE8B-A242-4AC6D53E378C" refContainerID="E15EB823-D80A-3431-3E36-150A56143B54" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2D289812-10CE-6D11-164D-20309C2D6F84" name="Proveedor_TipoProveedor_FK" containerID="E15EB823-D80A-3431-3E36-150A56143B54" refContainerID="3BC3C430-6F50-8AE3-BA98-05F663115FE2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="367D076E-2788-60A9-3AFD-50239E185510" name="Empleado_Persona_FK" containerID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" refContainerID="73E6E759-C2AD-6098-3661-C4927A3BE67E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A888C66-B522-55E9-E3D8-F5CC78AB206C" name="DetalleFactura_Factura_FK" containerID="ED999531-0B66-A0E6-4245-BC756476CD78" refContainerID="5461B7D3-658C-B68C-7365-FFD7DF0040B1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3DA07087-23F8-F02B-642D-FD8AEE68CD87" name="Generos/Libros_Libro_FK" containerID="1D237867-07D3-1316-2C26-02B73932694E" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="460FB972-873B-627E-2CAB-87914A5ECF90" name="Sucursal_Bodega_FK" containerID="3A6953BD-7F40-F419-D962-82BC07A2034B" refContainerID="5465A1EC-B4C8-71CB-FA49-F7EB91221637" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4B2BF42B-B9D0-640B-77D9-46B3BB3A32EF" name="Autores/Libros_Autor_FK" containerID="8FEB16A7-15F6-484C-9BA3-B3188D7728AA" refContainerID="FC07DC1A-CCBA-0E5C-D7D5-AB3C37848669" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5CD312CD-A513-5513-725D-F93754F731A8" name="Cliente_Persona_FK" containerID="F2BC5E39-14DD-74EA-7E25-C86F1A4B8722" refContainerID="73E6E759-C2AD-6098-3661-C4927A3BE67E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="61EDC214-A748-1A2E-A366-7E7CF1CBA34E" name="Mora_Pago_FK" containerID="51F7539C-0797-19A7-EA14-3D71B293CF87" refContainerID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="66828606-F601-8322-85CC-6D3E834631EE" name="Estante_Pasillo_FK" containerID="C8A0BB67-BEC7-4CE6-5F7A-2042D688F236" refContainerID="3E1E3133-DF0D-ACC6-9FB5-F164AC87869B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6BA1C77E-8AFD-0196-3888-989D0F332F99" name="Empleado/Cargo_Empleado_FK" containerID="E84BDDA5-E054-1269-4443-F664FEF6290F" refContainerID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="784C41CE-1BBA-8EA4-2658-0BF1930FC2C6" name="SucursalEmpleado_Empleado_FK" containerID="8485FCB9-727B-E2EC-AC7B-853C8B42FE3A" refContainerID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7CA04F86-4390-50C5-1E26-87F6B994B186" name="Pago_TipoPago_FK" containerID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" refContainerID="867203C0-3868-2995-DFC3-9A32A8BE6B74" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8AD49D07-F281-DBCD-C7A4-EB1829AFC5F7" name="Libros/Editoriales_Editorial_FK" containerID="F888CBF1-4A63-6569-F0CE-3977FACD3F03" refContainerID="795CB3B6-24AA-5E0C-7506-EB4C9A821CEA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9727DCA7-C9AC-DB36-E797-0263C6BF5D92" name="Edicion_Libro_FK" containerID="CBFB9C13-5843-F6D3-8B56-7DF0EB29DA43" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="98F38950-1F37-954C-C59E-D3D755D04FCD" name="Empleado/Cargo_Cargo_FK" containerID="E84BDDA5-E054-1269-4443-F664FEF6290F" refContainerID="D79CA74F-D601-9734-022E-AF683DA78E8A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A2D01956-3DA2-42BD-1CD1-A42FD6F5429B" name="Generos/Libros_Genero_FK" containerID="1D237867-07D3-1316-2C26-02B73932694E" refContainerID="BD2CD422-FF64-07D3-084A-B2C355742497" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AE7BAA18-2D97-1179-4626-E1E3EB3DBF68" name="JefeInmediato_Empleado_FK" containerID="A7824F73-C489-8751-6131-1EE27D027F72" refContainerID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AE7D7D4C-C2BF-E634-5EDE-6812FE86D218" name="Proveedor/ProductosVarios_ProductosVarios_FK" containerID="0D733DFF-E5E3-FE8B-A242-4AC6D53E378C" refContainerID="810D0479-03ED-9289-E81B-C0C8A8456F21" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AF9215FC-656A-4A4E-387F-F9B28F13804D" name="Libro_Idioma_FK" containerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" refContainerID="7965D7EE-BE6A-7A33-5D9A-915263DAD4FC" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BC992B96-1C2E-A3C4-1CB4-7B8484B21877" name="DetalleFactura_Libro_FK" containerID="ED999531-0B66-A0E6-4245-BC756476CD78" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BD51C0DA-4275-3DED-994C-D67A58CBFB36" name="Autores/Libros_Libro_FK" containerID="8FEB16A7-15F6-484C-9BA3-B3188D7728AA" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C3390BF3-F381-44DF-F489-9C66BC523606" name="Proveedores/Libros_Proveedor_FK" containerID="9B140F79-2ED6-C772-2BF4-9CE80FE83F05" refContainerID="E15EB823-D80A-3431-3E36-150A56143B54" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CC35F8E0-77CE-8C99-47B1-F412FD88ACCB" name="Pago_Descuento_FK" containerID="6544E0E0-09EA-74B1-F28C-F3A4BF76533C" refContainerID="4F36D3A3-7A4C-8A43-CC3A-104DDBE28692" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF445FE5-E80F-54BB-D910-C8AA19A44503" name="Factura_TipoObtencion_FK" containerID="5461B7D3-658C-B68C-7365-FFD7DF0040B1" refContainerID="40D623F7-B1EA-8311-B28E-0D402139A7B3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EB4B6BD6-B5DE-796B-E973-43203F471C71" name="Empleado_JefeInmediato_FK" containerID="B2EE0E5E-7A00-6548-16C0-1713ADE4574A" refContainerID="A7824F73-C489-8751-6131-1EE27D027F72" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EE1949D0-A645-8702-D1F7-8B8C9133F83C" name="Pasillo_Bodega_FK" containerID="3E1E3133-DF0D-ACC6-9FB5-F164AC87869B" refContainerID="5465A1EC-B4C8-71CB-FA49-F7EB91221637" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EF6AABBF-5088-5952-77EA-6A3112B8A4B7" name="Sucursal_Libreria_FK" containerID="3A6953BD-7F40-F419-D962-82BC07A2034B" refContainerID="A4057BB2-D760-538F-3003-1D938B706B25" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F6AE404E-8AE7-85F1-B047-2725A80AABA6" name="SucursalEmpleado_Sucursal_FK" containerID="8485FCB9-727B-E2EC-AC7B-853C8B42FE3A" refContainerID="3A6953BD-7F40-F419-D962-82BC07A2034B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FDF6E641-818C-EF30-BCF0-5161CBD6961C" name="Libros/Editoriales_Libro_FK" containerID="F888CBF1-4A63-6569-F0CE-3977FACD3F03" refContainerID="8582FDD6-A5F9-49CE-F437-DE9AF988D076" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

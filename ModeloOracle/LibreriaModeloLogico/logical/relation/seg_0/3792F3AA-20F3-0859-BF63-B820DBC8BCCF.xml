@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pago Descuento FK" directorySegmentName="seg_0" id="3792F3AA-20F3-0859-BF63-B820DBC8BCCF">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:16:44 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71B55547-4AFB-5E99-4443-8858D65525CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D92094F9-3952-CAF6-50CC-56F3AEF49C80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

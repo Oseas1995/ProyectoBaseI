@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1192C74C-1266-B36A-0E90-CFCFB6804063" name="Generos/Libros">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:28:25 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idGeneros/Libros" id="3AFF8064-06B5-95D9-DBE4-99B91ACACB47">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:28:35 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero idGenero" id="59F86334-BE5A-76ED-46CA-B9855789590B">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:28:56 UTC</createdTime>
+<generatorID>F2FED6E8-D61E-CB9B-81F7-20DCC6DDCCF5</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>0FE0B97C-7BCF-539F-980A-A3923AD94700</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Libro idLibro" id="28A23303-15BD-7C99-EB8D-C0A4B243DC00">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:29:05 UTC</createdTime>
+<generatorID>D839177B-8BCF-71C6-F557-696AC8216A75</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>A2C8F1D8-800A-ABAA-D053-786E6E9FFE3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D4DC91C-E710-A134-5EAC-3E6E1781AE88" name="Generos/Libros PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:28:49 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AFF8064-06B5-95D9-DBE4-99B91ACACB47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

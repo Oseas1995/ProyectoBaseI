@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F888CBF1-4A63-6569-F0CE-3977FACD3F03" name="Libros/Editoriales">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>8549FD87-E15D-4F7C-4CAD-96B1C344318F</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLibros/Editoriales" id="92F44D14-EC41-C8D3-0933-7B1B1B054BAA">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>C0D57C28-F492-AA09-BC43-25935FCCB170</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libro_idLibro" id="05413D3F-FA52-0775-0ED1-BA65F5663E0D">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>F7EB60E8-F422-6E38-8602-608BB4680006</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDF6E641-818C-EF30-BCF0-5161CBD6961C" referredColumn="410E3211-A6E5-66A9-3654-BB634BF02A2A"/>
+</associations>
+</Column>
+<Column name="Editorial_idEditorial" id="DB8ECDF9-ACD0-2002-87D8-2208D1D4AA99">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>3A55DB98-F6EE-28C2-0F94-97614F71D901</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD49D07-F281-DBCD-C7A4-EB1829AFC5F7" referredColumn="7776E4B2-21F0-6955-FEBF-437A0E645750"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16868F46-2F17-955F-CC56-A8D10C2EDFDF" name="Libros/Editoriales_Libro_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>BD4B3DC6-A070-44BD-EC58-91986C6DF5F8</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05413D3F-FA52-0775-0ED1-BA65F5663E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3DD1A3A-7942-8EF1-386F-5E7177CD69A3" name="Libros/Editoriales_Editorial_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-02-28 05:30:36 UTC</createdTime>
+<generatorID>3646BF1A-670B-4121-036A-5FE8A2FA76CA</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB8ECDF9-ACD0-2002-87D8-2208D1D4AA99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pago Prestamo FK" directorySegmentName="seg_0" id="05FACA7A-CD1D-F086-9B4F-BD7AA29E9552">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:44:43 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E6E5140-2AA4-E71B-9216-C383FB04B4C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D92094F9-3952-CAF6-50CC-56F3AEF49C80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

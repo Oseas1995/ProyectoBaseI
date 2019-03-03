@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="947F5337-FDBC-F17D-9189-FCF3EC171101" name="Factura">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:23:42 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFactura" id="F3DB3190-C90A-9F9F-9229-79B874BCCED7">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:23:48 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaRegistro" id="9061ACD5-6F50-405D-5F51-CCD468863BC0">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:23:59 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cliente idCliente" id="8EAEFC5D-3AF1-6799-2590-4A97AAAC3339">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:25:29 UTC</createdTime>
+<generatorID>79D4E53D-272D-4851-FF69-CCF2F0082D00</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>FAB7DBFB-3FBA-C78A-C7D7-6FF5B68E8F83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pago idPago" id="7B73AF18-1AA1-7D51-64E7-CC535B8FF5A1">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:34:18 UTC</createdTime>
+<generatorID>49157B36-B8F6-B413-1AD0-8CBB4BEB543D</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>98D53676-52C6-0EE0-BD61-F37220877409</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoObtencion idTipoObtencion" id="C577F09E-6B9F-184C-BAC8-42022C500944">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:42:20 UTC</createdTime>
+<generatorID>33FC779F-1E46-EAAA-4EF4-BCBEE94D5866</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="true"/>
+</engineerTo>
+<referedAttribute>E31B8EB1-5815-B49C-A8BC-B7BC5FBB2D65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D9CECD1-CC4A-8072-B5E2-C612269A5884" name="Factura PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:23:57 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="52CC9098-CB3F-D7EF-E200-B37E7EFED40C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3DB3190-C90A-9F9F-9229-79B874BCCED7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

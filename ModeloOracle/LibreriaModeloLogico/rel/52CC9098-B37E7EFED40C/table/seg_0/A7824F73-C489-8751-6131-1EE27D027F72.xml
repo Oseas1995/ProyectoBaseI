@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7824F73-C489-8751-6131-1EE27D027F72" name="JefeInmediato">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:01:06 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JefeInmediato_ID" id="8F9A0D11-148B-37ED-582F-7A96231BF712">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Empleado_Empleado_ID" id="79F42FB9-144F-4314-F5E9-24BBCF525D68">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7BAA18-2D97-1179-4626-E1E3EB3DBF68" referredColumn="D512FB26-8BDA-965C-2346-883EAC8538E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34E40716-9FF0-A770-154D-9A429D588D0E" name="JefeInmediato_PK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8F9A0D11-148B-37ED-582F-7A96231BF712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1F40724-DFAD-6EB3-5346-0854F0D364D6" name="JefeInmediato__IDX">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6239A591-D4EA-CACB-CBBD-496BCD69296C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="79F42FB9-144F-4314-F5E9-24BBCF525D68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97619458-980E-1B36-C9CD-7E4B57B952FB" name="JefeInmediato_Empleado_FK">
+<createdBy>davef</createdBy>
+<createdTime>2019-03-02 16:02:52 UTC</createdTime>
+<generatorID>6239A591-D4EA-CACB-CBBD-496BCD69296C</generatorID>
+<ownerDesignName>LibreriaModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79F42FB9-144F-4314-F5E9-24BBCF525D68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
